@@ -25,9 +25,9 @@ class InitialLoginScreen extends StatelessWidget {
             width: mediaquery.size.width * 0.5,
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(20.0), // Adjust the values as needed
+                topLeft: Radius.circular(20.0), 
                 bottomLeft:
-                    Radius.circular(20.0), // Adjust the values as needed
+                    Radius.circular(20.0), 
               ),
               color: Colors.white,
             ),
@@ -41,7 +41,7 @@ class InitialLoginScreen extends StatelessWidget {
                   const Text(
                     "SAPDOS",
                     style: TextStyle(
-                        fontSize: 34, // Adjust the font size as needed
+                        fontSize: 34, 
                         fontWeight: FontWeight.bold,
                         color: AppColors.primaryColor),
                   ),
@@ -100,15 +100,15 @@ class InitialLoginScreen extends StatelessWidget {
                   ),
                   TextButton(
                     onPressed: () {
-                      // Proceed as guest functionality
+                    
                     },
                     child: const Text(
                       "Proceed as a Guest",
                       style: TextStyle(
                           decoration: TextDecoration.underline,
-                          decorationColor: AppColors.accentColor, // optional
+                          decorationColor: AppColors.accentColor, 
                           decorationThickness: 2,
-                          color: AppColors.accentColor // optional
+                          color: AppColors.accentColor
                           ),
                     ),
                   ),
