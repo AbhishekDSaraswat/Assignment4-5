@@ -8,7 +8,7 @@ import 'package:flutter_application_5/screens/home_screen.dart';
 class DoctorScreen extends StatelessWidget {
   const DoctorScreen({super.key});
 
-  // const DoctorScreen({super.key});
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class DoctorScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Row(
         children: [
-          // Sidebar
+          
           Container(
             width: screenWidth * 0.16 < 300 ? 300 : screenWidth * 0.16,
             color: AppColors.primaryColor,
@@ -95,7 +95,7 @@ class DoctorScreen extends StatelessWidget {
                         progress: 19,
                       ),
                       SizedBox(width: 20),
-                      // _buildStatCard('Completed Appointments', '21/40'),
+                     
                       AppointmentProgressItem(
                         title: "Completed Appointments",
                         total: 40,
@@ -244,7 +244,7 @@ class DoctorScreen extends StatelessWidget {
   }
 }
 
-// *********************************************************
+
 
 class AppointmentItem extends StatelessWidget {
   final String time;
