@@ -1,0 +1,37 @@
+{
+    "user": {
+      "greeting": "Hello!",
+      "name": "Satish",
+      "avatar": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    "doctorsList": [
+      {
+        "doctorImage": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+        "doctorName": "Dr. Smith",
+        "specialization": "Cardiology",
+        "appointmentIcon": "assets/icons/appointment.png",
+        "price": 512
+      },
+      {
+        "doctorImage": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+        "doctorName": "Dr. Johnson",
+        "specialization": "Pediatrics",
+        "appointmentIcon": "assets/icons/appointment.png",
+        "price": 450
+      },
+      {
+        "doctorImage": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+        "doctorName": "Dr. Taylor",
+        "specialization": "Dermatology",
+        "appointmentIcon": "assets/icons/appointment.png",
+        "price": 300
+      },
+      {
+        "doctorImage": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+        "doctorName": "Dr. Anderson",
+        "specialization": "Neurology",
+        "appointmentIcon": "assets/icons/appointment.png",
+        "price": 600
+      }
+    ]
+  }
